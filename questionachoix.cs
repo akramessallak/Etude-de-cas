@@ -8,17 +8,19 @@ namespace Etude_de_cas
 {
     internal class questionachoix : question
     {
-        string proposition;
+        public string[] proposition;
+        private ReponseQachoix reponse;
 
-        public questionachoix(string enonce, int note, string type, string proposition) : base(enonce, note,type)
+        public questionachoix(string enonce, int note, string type, string[] proposition) : base(enonce, note,type)
         {
+            proposition = new string[proposition.Length];
             this.proposition = proposition;
         }
-        public string getproposition()
+        public string[] getproposition()
         {
             return proposition;
         }
-        public void setproposition(string proposition)
+        public void setproposition(string[] proposition)
         {
             this.proposition = proposition;
         }

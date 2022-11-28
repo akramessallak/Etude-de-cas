@@ -6,19 +6,41 @@ using System.Threading.Tasks;
 
 namespace Etude_de_cas
 {
-    internal class reponse
+    internal abstract class reponse
     {
-        private int degrecertitude;
-        private int duree;
+        private int note;
+        private string type;
+        private string Reponse;
 
-        public reponse() { }
-        public int getdegrecertitude()
+        public reponse(int note,string type, string Reponse)
         {
-            return degrecertitude;
+            this.note = note;
+            this.type = type;
+            this.Reponse = Reponse;
         }
-        public void setduree(int dure)
+        public int getnote()
         {
-            duree = dure;
+            return this.note;
+        }
+        public void setnote(int note)
+        {
+            this.note = note;
+        }
+        public string gettype()
+        {
+            return this.type;
+        }
+        public void settype(string type)
+        {
+            this.type = type;
+        }
+        public string getReponse()
+        {
+            return this.Reponse;
+        }
+        public void setReponse(string Reponse)
+        {
+            this.Reponse = Reponse;
         }
     }
 }

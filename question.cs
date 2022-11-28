@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Etude_de_cas
 {
-    internal class question
+    internal abstract class question
     {
         private string enonce;
         private int note;

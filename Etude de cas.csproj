@@ -51,6 +51,8 @@
     <Compile Include="question.cs" />
     <Compile Include="questionouverte.cs" />
     <Compile Include="reponse.cs" />
+    <Compile Include="ReponseOuverte.cs" />
+    <Compile Include="ReponseQachoix.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
