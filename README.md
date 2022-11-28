@@ -1,2 +1,3 @@
-![Death will be easier](https://user-images.githubusercontent.com/117403353/204165673-c826dfce-3ba7-43fc-8365-753e8e10f01f.png)
+![Death will be easier](https://user-images.githubusercontent.com/117403353/204179012-a0a2295a-54e6-444c-8702-66d029137858.png)
+
 
